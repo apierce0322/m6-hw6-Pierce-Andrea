@@ -80,7 +80,6 @@ nav a:hover {
 
 /* Sidebar */
 .sidebar {
-  flex: 1;
   background-color: #f8f8f8;
   padding: 20px;
   border-radius: 10px;
@@ -92,7 +91,8 @@ nav a:hover {
   margin-bottom: 15px;
 }
 
-.social-icons img {
+.social-icons img { 
+flex: 1;
   width: 40px;
   margin: 10px;
   transition: transform 0.2s ease;
